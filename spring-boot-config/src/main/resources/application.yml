@@ -1,0 +1,21 @@
+family:
+ family-name: "happyfamily"
+ father: "Jack"
+ mother: "Rose"
+ child: "Tom"
+ years: 3
+
+
+person:
+ name: "zhangsan"
+ age: 23
+ happy: false
+ birthday: 2003/01/15
+ maps: {k1:v1;k2:v2}
+ lists:
+  - code
+  - girl
+  - music
+ dog:
+  name: "多多"
+  age: ${random.int(2,11)}
