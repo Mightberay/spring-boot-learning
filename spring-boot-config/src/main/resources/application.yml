@@ -1,9 +1,15 @@
-family:
- family-name: "happyfamily"
- father: "Jack"
- mother: "Rose"
- child: "Tom"
- years: 3
+#需要使用的配置文件
+spring:
+ profiles:
+  active: prod
+
+
+#family:
+# family-name: "happy family"
+# father: "Jack"
+# mother: "Rose"
+# child: "Tom"
+# years: ${random.int(4,20)}
 
 
 person:
